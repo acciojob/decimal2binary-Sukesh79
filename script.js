@@ -11,8 +11,8 @@ function decimalToBinary(num) {
 
 	if(n===1) str += "1";
 	let ans = [...str].reverse().join("");
-	alert(ans);
+	return ans;
 }
-let num = parseInt(prompt("enter the number in decimal","10"))
 
-window.decimalToBinary = decimalToBinary(num);
+
+window.decimalToBinary = decimalToBinary;
